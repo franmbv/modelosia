@@ -11,6 +11,7 @@ El objetivo de este repositorio es explorar modelos accesibles, ligeros y con re
 | # | Nombre / Tarea | Modelo Hugging Face | Modalidad | Script |
 |:---:|:---|:---|:---:|:---:|
 | **01** | Detector de Emociones en Español | [`pysentimiento/robertuito-emotion-analysis`](https://huggingface.co/pysentimiento/robertuito-emotion-analysis) | NLP / Texto | [`dia1.py`](dia1.py) |
+| **02** | Estimación de Profundidad 3D | [`depth-anything/Depth-Anything-V2-Small-hf`](https://huggingface.co/depth-anything/Depth-Anything-V2-Small-hf) | Visión / Imagen | [`dia2.py`](dia2.py) |
 
 ---
 
@@ -50,7 +51,7 @@ source .venv/bin/activate
 
 ### 3. Instalar dependencias
 ```bash
-pip install torch transformers huggingface_hub
+pip install torch transformers huggingface_hub pillow
 ```
 
 ### 4. Ejecutar un script
